@@ -60,7 +60,7 @@ body {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
@@ -76,6 +76,10 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
 }
+.order-servise-btn:hover,
+.order-servise-btn:focus {
+  background-color: #404bbf;
+}
 .benefits-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -90,13 +94,24 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* our team */
+.section-team {
+  background-color: #f4f4fd;
+}
 .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
+}
+.team-list-item {
+  background-color: #ffffff;
+}
+.title {
+  text-transform: capitalize;
 }
 .title-name,
 .portfolio-name {
