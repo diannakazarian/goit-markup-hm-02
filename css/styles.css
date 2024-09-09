@@ -29,8 +29,9 @@ body {
 .logo-part {
   color: #2e2f42;
 }
+
 .page-logo .logo-footer,
-.logo-part {
+.logo-part-footer {
   color: #f4f4fd;
 }
 
@@ -64,6 +65,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  /* <!-- section hero --> */
 }
 .main {
   background-color: #2e2f42;
@@ -79,6 +81,7 @@ body {
 .order-servise-btn:hover,
 .order-servise-btn:focus {
   background-color: #404bbf;
+  /* our  benefits --> */
 }
 .benefits-list-title {
   font-weight: 500;
@@ -124,6 +127,7 @@ body {
 }
 .main-title {
   text-align: center;
+  /* <!-- Our portfolio-- --> */
 }
 .team-text,
 .portfilio-text {
@@ -135,6 +139,7 @@ body {
 .team-text {
   text-align: center;
 }
+/* footer */
 .page-footer {
   background: #2e2f42;
 }
